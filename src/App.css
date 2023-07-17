@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-color: #f5f1e5;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 10px;
+  /* margin: 0; */
+}
+
+.card {
+  /* border: 1px solid black; */
+  max-width: 350px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #f0f9f6;
+}
+
+.card .content-image {
+  width: 100%;
+}
+
+.card img{
+  /* width: max-content; */
+  width: 100%;
+  height: 300px;
+  border-radius: 16px 16px 0 0;
+}
+
+.card .description {
+  margin: 20px;
+}
+
+.card .description h3{
+  color: #035942;
+}
+
+.card .description p{
+  display: inline-block;
+  max-width: 275px;
+  text-align: justify;
+  margin: 0;
+}
+
+.card .description span {
+  float: right;
+  color: #07b688;
+}
+
+
+.container_card {
+  display: flex;
+  margin: 0 auto;
+  /* width: 60%; */
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+
