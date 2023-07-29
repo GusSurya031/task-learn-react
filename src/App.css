@@ -37,17 +37,11 @@
   }
 }
 
-.background {
+/* .background {
   background-color: #f5f1e5;
   min-height: 100vh;
   padding-top: 30px;
-}
-
-h1 {
-  text-align: center;
-  letter-spacing: 10px;
-  /* margin: 0; */
-}
+} */
 
 .card {
   /* border: 1px solid black; */
@@ -98,3 +92,8 @@ h1 {
   /* text-align: center; */
 }
 
+.Home {
+  height: 200vh;
+  position: relative;
+  margin-top: 100px;
+}

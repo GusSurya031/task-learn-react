@@ -1,0 +1,36 @@
+.nav-container {
+    padding: 0 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: var(--grey);
+    box-shadow: 0px 2px 16px 0px #586a58b2;
+    z-index: 99;
+}
+
+.logo-container img {
+    position: relative;
+    max-height: 42px;
+    height: 100%;
+    right: 20px;
+}
+
+.nav-title a{
+    display: inline-block;
+    color: var(--green);
+    text-decoration: none;
+    padding: 0 70px;
+}
+
+.nav-title a:hover{
+    font-weight: bolder;
+}
+
+.icon-container img {
+    width: 30px;
+    margin-left: 26px;
+}
