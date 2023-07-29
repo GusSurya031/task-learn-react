@@ -1,0 +1,18 @@
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 12px;
+}
+
+.label-card {
+    display: inline-block;
+    position: relative;
+    background-color: var(--green);
+    padding: 12px;
+    top: 20px;
+    color: var(--white);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}

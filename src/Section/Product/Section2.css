@@ -1,0 +1,22 @@
+.section2-title {
+    text-align: center;
+    color: var(--green);
+}
+
+.section2-title h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-section2 {
+    display: flex;
+    gap: 50px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-row-gap: 90px;
+    margin-top: 48px;
+    align-items: center;
+}

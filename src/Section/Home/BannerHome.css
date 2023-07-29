@@ -1,6 +1,6 @@
 
 .container-section-1 {
-    height: 90vh;
+    height: 100vh;
     background-image: url(../../Image/BannerSection1.png);
     background-size: 100%;
     background-position: center;
@@ -17,8 +17,8 @@
 .container-banner {
     position: absolute;
     color: var(--white);
-    right: 60px;
-    top: 140px;
+    right: 100px;
+    top: 200px;
     max-width: 600px;
     background-color: var(--green);
     padding: 24px 36px;
