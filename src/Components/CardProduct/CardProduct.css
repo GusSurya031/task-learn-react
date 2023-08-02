@@ -1,0 +1,50 @@
+h3,p {
+    margin: 0;
+}
+
+.card-container {
+    width: 300px;
+    height: 400px;
+    background-color: var(--green);
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 12px;
+}
+
+.image-container {
+    width: 100%;
+    height: 60%;
+}
+
+.desc-container {
+    position: relative;
+    width: 100%;
+}
+
+.description-container {
+    color: var(--white);
+    padding: 16px;
+}
+
+.description-container h3 {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+
+.description-container p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.price-container {
+    position: absolute;
+    font-weight: bold;
+    background-color: var(--white);
+    color: var(--green);   
+    right: 0;
+    bottom: -30px;
+    display: inline-block;
+    width: fit-content;
+    padding: 8px 24px;
+    letter-spacing: 1.5px;
+}

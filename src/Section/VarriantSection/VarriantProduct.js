@@ -1,15 +1,16 @@
 import React from 'react';
-import Card from '../../Components/CardProduct/Card';
+import Card from '../../Components/CardVarriants/Card';
 import BannerSection from '../../Image/ProductSection2.png';
 import './Section2.css';
+import HeaderSection from '../HeaderAllSection/HeaderSection';
 
 export default function ProductSection() {
   return (
     <>
-        <div className='section2-title'>
-            <h1>New Varriant New Flavour</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        <HeaderSection 
+            titleHeader='New Varriant New Product'
+            subTitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit '
+        />
         <div className='container-section2'>
             <div className='container-image'>
                 <img src={BannerSection} alt='Tiramissu Mile Crepes'></img>

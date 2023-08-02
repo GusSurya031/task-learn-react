@@ -1,0 +1,7 @@
+.container-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 42px 28px;
+    justify-content: center;
+}   

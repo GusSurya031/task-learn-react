@@ -1,0 +1,29 @@
+.header-container {
+    margin: 60px auto 30px;
+    color: var(--green);
+    text-align: center;
+    width: fit-content;
+}
+
+.header-title {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: -8px;
+}
+
+.title-header {
+    position: relative;
+    z-index: 99;
+} 
+
+.header-title .kotak-abu-title {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: -10px;
+    background-color: var(--yellow);
+    opacity: .8;
+    bottom: 0;
+    z-index: 9;
+}

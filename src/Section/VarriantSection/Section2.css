@@ -1,13 +1,3 @@
-.section2-title {
-    text-align: center;
-    color: var(--green);
-}
-
-.section2-title h1{
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
 .container-section2 {
     display: flex;
     gap: 50px;

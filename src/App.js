@@ -3,22 +3,13 @@ import {
   Routes,
   BrowserRouter as Router 
 } from 'react-router-dom';
+
 import './App.css';
-// import Card from './components/cardProduct';
-import Home from './Pages/Home';
-import Contact from './Pages/Contact';
-import ErrorPage from './Pages/ErrorPage';
-// import React,{ useState, useEffect } from 'react';
-
-
+import Home from './pages/home';
+import Contact from './pages/Contact';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
-
-
-  
-  
-  
-
   return (
     <>
       <div className='background'>
@@ -29,15 +20,8 @@ function App() {
             <Route path='*' element ={<ErrorPage/>}/>
           </Routes>
         </Router>
-
-
-
-
-
-
       </div>
     </>
-
   );
 }
 
