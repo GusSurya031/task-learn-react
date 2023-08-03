@@ -1,7 +1,39 @@
-.container-section {
+.container-section{
+    position: relative;
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+.container-cards{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 42px 28px;
     justify-content: center;
 }   
+
+.background-transparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 30%;
+    z-index: 99;
+    background-image: linear-gradient(180deg, #f6f6f600 10%,  #f6f6f679 20%,  #F6F6F6 80%);
+}
+
+.more-button a{
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #859383;
+}

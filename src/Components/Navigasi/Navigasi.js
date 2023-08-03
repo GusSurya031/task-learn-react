@@ -17,7 +17,7 @@ export default function Navigasi() {
             <Link to ='/' id='Home'>Home</Link>
             <Link to ='/Shop' id='Home'>Shop</Link>
             <Link to ='/About' id='Home'>About</Link>
-            <Link to ='/Contact' id='Home's>Contact</Link>
+            <Link to ='/Contact' id='Home'>Contact</Link>
         </div>
         <div className='icon-container'>
             <img src={UserIcon} alt='User Attention'></img>

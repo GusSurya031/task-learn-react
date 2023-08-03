@@ -1,0 +1,22 @@
+.banner-container {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-banner {
+    color: #333C33;
+    text-align: center;
+}
+
+.title-banner h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
