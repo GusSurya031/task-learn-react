@@ -11,6 +11,7 @@ import ErrorPage from './pages/ErrorPage';
 import Shop from './pages/Shop';
 
 import { useEffect } from 'react';
+import Detailed from './pages/Detailed';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
             <Route index element ={<Home/>} />
             <Route path='shop' element={<Shop />} />
             <Route path='contact' element ={<Contact/>} /> 
+            <Route path='detailed' element = {<Detailed/>} />
             <Route path='*' element ={<ErrorPage/>}/>
           </Routes>
         </Router>

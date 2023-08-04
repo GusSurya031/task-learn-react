@@ -16,6 +16,7 @@ export default function Home() {
       <Navigasi />
       <BannerHome />
       <ProductSection />
+      {/* <DisplayProduct linkActive='none'/> */}
       <DisplayProduct />
       <FooterPage />
     </div>

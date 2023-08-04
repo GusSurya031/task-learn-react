@@ -7,6 +7,7 @@ import WeddingCake from '../../Image/WeddingCake.png'
 import { Link } from 'react-router-dom';
 
 export default function DisplayProduct(props) {
+    // const active = `${props.linkActive}`;
     const products = [
       {
         image: WeddingCake, nameProduct: 'Strawberry Mile Crepes', subNameProduct: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna', harga: '120.000'
@@ -41,6 +42,9 @@ export default function DisplayProduct(props) {
       {
         image: WeddingCake, nameProduct: 'Strawberry Mile Crepes', subNameProduct: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna', harga: '120.000'
       },
+      {
+        image: WeddingCake, nameProduct: 'Strawberry Mile Crepes', subNameProduct: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna', harga: '120.000'
+      },
     ]
 
 
@@ -52,12 +56,13 @@ export default function DisplayProduct(props) {
           {
             products.map((products,index)=>{
               return(
-                <CardProduct 
+                <CardProduct
+                // linkEvent={active} 
                 image = {products.image}
                 nameProduct = {products.nameProduct}
                 subNameProduct = {products.subNameProduct}
                 harga = {products.harga}
-                // index = {index}
+                index = {index}
                 />
                 )
               })

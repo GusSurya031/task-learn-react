@@ -2,20 +2,14 @@ import React from 'react'
 import Navigasi from '../Components/Navigasi/Navigasi'
 import FooterPage from '../Components/Footer/FooterPage'
 import DisplayProduct from '../Section/ProductSection/DisplayProduct'
-import { useEffect } from 'react'
-import Banner2 from '../Section/Home2/Banner2'
+import NavDetailed from '../Components/NavigasiDetailed/NavDetailed'
 
-
-export default function Shop() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+export default function Detailed() {
   return (
     <div>
       <Navigasi />
-      <Banner2 />
-      <DisplayProduct tampilanTrasnparent='none'/>
+      <NavDetailed nameProduct='Mile Crepes'/>
+      <DisplayProduct tampilanTrasnparent='none' index='2'/>
       <FooterPage />
     </div>
   )
